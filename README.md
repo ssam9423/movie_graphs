@@ -8,9 +8,12 @@ The Movie Data Comparisons subplot allows the user to get a brief overview of th
 
 For example, in the Rating vs Votes graph, there seems to be a parabolic relationship between the maximum rating a movie could recieve based on the number of votes it has.
 The color of the dots shows that there is a positive corelation between the rating and the metascore. 
-<p align="center">
-<img src="/Rating_vs_Votes%20(Metascore).png" width="600" height="400">
-</p>
+<div class="row">
+  <p align="center">
+    <img src="/Rating_vs_Votes%20(Metascore).png" width="300" height="200">
+    <img src="/Rating_vs_Votes%20(Metascore)Curve Fit.png" width="300" height="200">
+  </p>
+</div>
 
 ## Adapting the Code
 To change which values are on the x and y axis, change the values of `x_axis` and `y_axis` to the column names of the imdb movie stats database.
